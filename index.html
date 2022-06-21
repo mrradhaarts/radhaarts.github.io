@@ -331,10 +331,11 @@ Tanjore Art. We Have Fully Handicrafted This Work. And We Have Many Paintings Of
         <div class="row">
           <div class="col-md-6">
             <div class="form-container">
-              <form action="https://formsubmit.io/sgmurugan1234@gmail.com" method="post" class="vanilla vanilla-form" novalidate>
+              <form action="https://formsubmit.io/send/sgmurugan1234@gmail.com" method="POST" >
                 <div class="row">
                   <div class="col-sm-6 pr-10">
                     <div class="form-group">
+                      <input type="hidden" name="_subject" value="New Email From Customer">
                       <input type="text" class="form-control" name="name" placeholder="Your name" required="required">
                     </div>
                     <!--/.form-group --> 
@@ -343,17 +344,22 @@ Tanjore Art. We Have Fully Handicrafted This Work. And We Have Many Paintings Of
                   <div class="col-sm-6 pl-10">
                     <div class="form-group">
                       <input type="tel" class="form-control" name="tel" placeholder="Your Phone No" required="required">
+                      
+                    </div>
+                    <!--/.form-group --> 
+                  </div>
+                  <div class="col-sm-12 pl-10">
+                    <div class="form-group">
+                      <textarea name="message" class="form-control" rows="3" placeholder="Type your message here..." required></textarea>
                     </div>
                     <!--/.form-group --> 
                   </div>
                   
-                  <div class="col-sm-12">
-                    <textarea name="message" class="form-control" rows="3" placeholder="Type your message here..." required></textarea>
-                    <div class="radio-set radio">
-                      
-                    </div>
-                    <!--/.radio-set -->
-                    <button type="submit" class="btn btn-rounded" data-error="Fix errors" data-processing="Sending..." data-success="Thank you!">Submit</button>
+                  <div class="col-sm-6 pl-10">
+                   
+                    <input name="_formsubmit_id" type="text" style="display:none">
+                    <input value="Submit" class="btn btn-rounded" type="submit">
+                    
                     <footer class="notification-box"></footer>
                   </div>
                   <!--/column --> 
